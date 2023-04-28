@@ -1,0 +1,86 @@
+.skills {
+  width: 100%;
+
+  /* text-align: center; */
+}
+
+.skills-heading {
+  text-align: center;
+}
+
+.skills-content {
+  margin: auto;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--text-color);
+}
+
+.skills-text {
+  margin: 0;
+  padding: 0.5rem 0;
+  text-align: justify;
+
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.skills-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+
+  padding: 0.5rem 0;
+}
+
+.accordion-item {
+  padding: 0.05rem;
+}
+
+.toggle {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0.5rem;
+
+  background-color: white;
+  color: var(--site-color);
+
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  border: none;
+
+  font-family: "Ubuntu", sans-serif;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.indicator {
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.accordion-detail {
+  padding: 0.5rem 1rem;
+  color: var(--text-color);
+}
+
+.experience {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.exp-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--site-color);
+}
+
+@media (min-width: 50rem) {
+  .skills-content {
+    gap: 2rem;
+  }
+}

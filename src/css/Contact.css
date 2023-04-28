@@ -1,0 +1,41 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  padding: 2rem 0;
+
+  line-height: 1.6;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.my-email {
+  font-weight: bold;
+}
+
+.contact-button {
+  padding: 0.5rem;
+
+  border-radius: 5px;
+  border: none;
+
+  cursor: pointer;
+
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  background-color: var(--site-color);
+  color: white;
+}

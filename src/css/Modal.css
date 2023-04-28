@@ -1,0 +1,83 @@
+.dialog {
+  border-color: white;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  margin: 1rem;
+  border-radius: 20px;
+
+  background-color: white;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 2rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+
+  text-align: left;
+  font-size: 0.9rem;
+
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.requied::after,
+.instruction::before {
+  content: " * ";
+  font-size: 0.8rem;
+  color: red;
+}
+
+.name-error,
+.email-error {
+  font-size: 0.8rem;
+  font-weight: initial;
+  color: red;
+}
+
+.text-area {
+  font: inherit;
+  font-weight: initial;
+  font-size: 0.9rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.button {
+  padding: 0.3rem 0.5rem;
+
+  border-radius: 5px;
+  border: none;
+
+  cursor: pointer;
+
+  font-weight: bold;
+  background-color: var(--site-color);
+  color: white;
+}
+
+.close {
+  background-color: gray;
+}
+
+.instruction {
+  font-size: 0.8rem;
+  text-align: left;
+  color: gray;
+}
