@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shigewang.github.io/static/css/main.793aae69.css",
+    "main.js": "/shigewang.github.io/static/js/main.ebcc2046.js",
+    "static/js/787.d6fdb30f.chunk.js": "/shigewang.github.io/static/js/787.d6fdb30f.chunk.js",
+    "index.html": "/shigewang.github.io/index.html",
+    "main.793aae69.css.map": "/shigewang.github.io/static/css/main.793aae69.css.map",
+    "main.ebcc2046.js.map": "/shigewang.github.io/static/js/main.ebcc2046.js.map",
+    "787.d6fdb30f.chunk.js.map": "/shigewang.github.io/static/js/787.d6fdb30f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.793aae69.css",
+    "static/js/main.ebcc2046.js"
+  ]
+}
