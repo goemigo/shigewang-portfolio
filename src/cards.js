@@ -1,5 +1,13 @@
 const cards = [
   {
+    title: "Explorease Traveling Platform",
+    path: "images/projectfive.png",
+    alt: "a screenshot of java swing application for project five",
+    text: "ExploreEase is a Java-based travel management system that offers a personalized, hassle-free, and sustainable travel experience. It includes a robust technology platform that ensures reliable service, with features like managing flight schedules, hotel availability, attraction ticket sales, food service supply chain, and insurance policies. The application provides a user-friendly interface that makes it easy for customers to navigate and find what they are looking for, view their booking history and manage their travel plans efficiently. With reliable service and a user-friendly interface, ExploreEase provides a seamless travel experience to its customers.",
+    linkName: "View source code",
+    linkPath: "https://github.com/ForumKaria/aed-final-project",
+  },
+  {
     title: "Professor-AS-A-Service Application",
     path: "images/projectone.png",
     alt: "a screenshot of java swing application for project one",
@@ -25,14 +33,14 @@ const cards = [
     linkPath:
       "https://github.com/bosinfo6150/bosinfo6250-student-goemigo/tree/main/final",
   },
-  {
-    title: "Web Extension To-do List",
-    path: "images/projectfour.png",
-    alt: "a screenshot of the web extension for project four",
-    text: "This is a Chrome extension designed to enhance the user experience on Canvas LMS by generating a clean and organized to-do list for upcoming assignments using React and JavaScript. The extension provides an easy way for students to stay on top of their assignments and manage their workload effectively. By leveraging the power of React, the extension provides a dynamic and interactive interface, allowing users to customize their to-do list based on their preferences.",
-    linkName: "View source code",
-    linkPath: "https://github.com/goemigo/canvas-to-do-extension.git",
-  },
+  // {
+  //   title: "Web Extension To-do List",
+  //   path: "images/projectfour.png",
+  //   alt: "a screenshot of the web extension for project four",
+  //   text: "This is a Chrome extension designed to enhance the user experience on Canvas LMS by generating a clean and organized to-do list for upcoming assignments using React and JavaScript. The extension provides an easy way for students to stay on top of their assignments and manage their workload effectively. By leveraging the power of React, the extension provides a dynamic and interactive interface, allowing users to customize their to-do list based on their preferences.",
+  //   linkName: "View source code",
+  //   linkPath: "https://github.com/goemigo/canvas-to-do-extension.git",
+  // },
 ];
 
 export default cards;
