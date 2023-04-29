@@ -5,7 +5,7 @@ function Home({ homeRef }) {
     <div className="home" ref={homeRef} id="home" tabIndex="-1">
       <img
         className="home-img"
-        src="images/profile-photo.jpeg"
+        src={process.env.PUBLIC_URL + "/images/profile-photo.jpeg"}
         alt="Shige by the sea"
       ></img>
       <div className="home-text">

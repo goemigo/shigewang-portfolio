@@ -76,6 +76,15 @@
   color: white;
 }
 
+.media-icons{
+  display: flex;
+  gap: 1rem;
+}
+
+.github, .linkedin, .insta {
+  color: white;
+}
+
 /* below CSS adapted from https://css.gg under the MIT License */
 .gg-menu-boxed {
   box-sizing: border-box;

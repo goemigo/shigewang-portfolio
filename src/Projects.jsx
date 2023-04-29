@@ -5,7 +5,7 @@ function Projects({ projectsRef }) {
   const card = cards.map((item) => {
     return (
       <div className="card" key={item.title}>
-        <img className="card-pic" src={item.path} alt={item.alt}></img>
+        <img className="card-pic" src={process.env.PUBLIC_URL + item.path} alt={item.alt}></img>
         <h2 className="card-title">{item.title}</h2>
         <p className="card-text">{item.text}</p>
         <a

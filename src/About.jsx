@@ -7,7 +7,7 @@ function About({ aboutRef }) {
       <div className="about-content">
         <img
           className="about-img"
-          src="images/about-photo.jpeg"
+          src= {process.env.PUBLIC_URL + "/images/about-photo.jpeg"}
           alt="me wearing a blue shirt sitting on a ship"
         ></img>
         <p className="about-text">

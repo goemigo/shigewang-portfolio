@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/shigewang-portfolio/static/css/main.793aae69.css",
-    "main.js": "/shigewang-portfolio/static/js/main.825b2f31.js",
+    "main.css": "/shigewang-portfolio/static/css/main.bd1d6aaa.css",
+    "main.js": "/shigewang-portfolio/static/js/main.54e605bf.js",
     "static/js/787.d6fdb30f.chunk.js": "/shigewang-portfolio/static/js/787.d6fdb30f.chunk.js",
     "index.html": "/shigewang-portfolio/index.html",
-    "main.793aae69.css.map": "/shigewang-portfolio/static/css/main.793aae69.css.map",
-    "main.825b2f31.js.map": "/shigewang-portfolio/static/js/main.825b2f31.js.map",
+    "main.bd1d6aaa.css.map": "/shigewang-portfolio/static/css/main.bd1d6aaa.css.map",
+    "main.54e605bf.js.map": "/shigewang-portfolio/static/js/main.54e605bf.js.map",
     "787.d6fdb30f.chunk.js.map": "/shigewang-portfolio/static/js/787.d6fdb30f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.793aae69.css",
-    "static/js/main.825b2f31.js"
+    "static/css/main.bd1d6aaa.css",
+    "static/js/main.54e605bf.js"
   ]
 }
